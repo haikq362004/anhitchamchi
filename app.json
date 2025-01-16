@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "anhitchamchi",
+    "slug": "anhitchamchi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nguyenhaiorg.anhitchamchi"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nguyenhaiorg.anhitchamchi"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aadc4be1-9112-4f1f-a6e9-44e944eca54a"
+      }
+    },
+    "owner": "nguyenhai-org",
+    "updates": {
+      "url": "https://u.expo.dev/aadc4be1-9112-4f1f-a6e9-44e944eca54a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
